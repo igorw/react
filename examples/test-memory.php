@@ -2,7 +2,7 @@
 
 require __DIR__.'/../vendor/autoload.php';
 
-$loop = new React\EventLoop\StreamSelectLoop();
+$loop = new React\EventLoop\LibEventLoop();
 
 $i = 0;
 
